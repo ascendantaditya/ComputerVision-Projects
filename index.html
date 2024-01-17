@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OpenCV Projects Showcase</title>
+    <style>
+        body {
+            font-family: 'Outfit', sans-serif; /* Use the 'Outfit' font */
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #FF00FF;
+            text-align: center;
+            padding: 1px;
+            margin-left: 265px;
+            margin-right: 265px;
+            border-radius: 10px;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        .project-card {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        .project-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .project-card-content {
+            padding: 20px;
+        }
+
+        fieldset {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: cyan;
+        }
+
+        legend {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .centered-btn {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .check-repo-btn {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .made-with-love {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>OpenCV Projects Showcase</h1>
+    </header>
+
+    <section>
+        <div class="project-card">
+            <div class="project-card-content">
+                <h2>Project 1: Image Recognition</h2>
+                <p>Image detection is a broad term that can refer to various tasks within the field of computer vision. Two common tasks associated with image detection are image classification and object detection</p>
+                <img src="img.jpg" alt="Image Recognition">
+                <fieldset>
+                    <legend>Technologies Used</legend>
+                    <ul>
+                        <li>OpenCV</li>
+                        <li>Python</li>
+                        <li>Computer Vision</li>
+                        <li>Deep Learning modules</li>
+                        <li>Machine Learning Techniques</li>
+                        <li>Tensorflow Libraries</li>
+                    </ul>
+                </fieldset>
+                <div class="centered-btn">
+                    <button class="check-repo-btn" onclick="window.open('https://github.com/ArunMichaelDsouza/tensorflow-image-detection')">Check Repo</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-card-content">
+                <h2>Project 2: Object Detection</h2>
+                <p>Object detection is a computer vision task that involves identifying and locating objects of interest within an image or video. The goal is to not only recognize the presence of objects but also to precisely determine their positions by drawing bounding boxes around them.</p>
+                <img src="onj.jpg" alt="Object Detection">
+                <fieldset>
+                    <legend>Technologies Used</legend>
+                    <ul>
+                        <li>OpenCV</li>
+                        <li>C++</li>
+                        <li>Tensorflow</li>
+                        <li>Pytorch</li>
+                        <li>HOG</li>
+                        <li>MobileNet</li>
+                        <li>Deep Learning</li>
+                        <li>Haar Cascades</li>
+                    </ul>
+                </fieldset>
+                <div class="centered-btn">
+                    <button class="check-repo-btn" onclick="window.open('https://github.com/ascendantaditya/PythonVerse/tree/main/Object%20Detection')">Check Repo</button>
+                </div>
+            </div>
+        </div>
+        <!-- Add more projects and their details -->
+
+        <div class="made-with-love">
+            <p>Made with ❤️ by <a href="https://ascendantaditya.github.io/pfolio/" target="_blank">@ascendantaditya</a></p>
+        </div>
+    </section>
+
+</body>
+</html>
